@@ -5,11 +5,8 @@
   "description": "the ultimate tool to keep you sharp",
   "content_scripts": [
     {
-      "js": ["main.js"]
+      "matches": ["https://www.google.com/*"],
+      "js": ["./main.js"]
     }
-  ],
-    "default_icon": "image",
-    "default_popup": "popup.html",
-    "default_title": "pomomathwebblock"
-  }
+  ]
 }
